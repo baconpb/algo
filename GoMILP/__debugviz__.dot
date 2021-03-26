@@ -1,0 +1,9 @@
+digraph enumtree {
+node [fontname=Courier,shape=rectangle];
+edge [color=Blue, style=dashed];
+0 [label=<Z=-0.68 <BR /> id:0 <BR /> branching >,color=Black];
+1 [label=<Z=NaN <BR /> id:1 <BR /> singular >,color=Red];
+2 [label=<Z=NaN <BR /> id:2 <BR /> singular >,color=Red];
+0 -> 1 ;
+0 -> 2 ;
+}
